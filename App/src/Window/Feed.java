@@ -1,8 +1,6 @@
 package Window;
 import java.awt.*;
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class Feed extends Window {
     public Feed() {
