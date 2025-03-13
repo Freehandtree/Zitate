@@ -9,5 +9,6 @@ public class Main {
 
     Main() {
         home = new Home();
+        System.out.println("Hello World!");
     }
 }
