@@ -24,7 +24,7 @@ public class Home extends Window {
 
         // Buttons
         JButton homeButton = createStyledButton("Home", e -> System.out.println("Home clicked"));
-        JButton feedButton = createStyledButton("Feed", e -> System.out.println("Feed clicked"));
+        JButton feedButton = createStyledButton("Feed", e -> openfeed());
         JButton profileButton = createStyledButton("Profile", e -> System.out.println("Profile clicked"));
 
         // Add buttons to the top bar
@@ -73,5 +73,9 @@ public class Home extends Window {
 
         button.addActionListener(action);
         return button;
+    }
+
+    public void openfeed(){
+        new Feed();
     }
 }
